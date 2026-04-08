@@ -1,20 +1,21 @@
 # Saifa Assignment Agnos Software Tester
 
 ## 📊 Test Case Document
+- 📄 Test Cases (located in `test-report/` folder):  
+  [Download](./test-report/Test_Cases_AGNOS.xlsx)
 👉 https://docs.google.com/spreadsheets/d/1SY28-SgIbtM-40UFHpj4AlnloG1FvNq28qtNhQ8aF60/edit?usp=sharing
 
-## Description
-Automated UI tests for the Agnos Health registration page using Playwright.
+## 📌 Description
+This project contains automated UI tests for the Agnos Health registration page using Playwright.  
+The tests cover both positive and negative scenarios to validate form behavior and user input handling.
 
-## Prerequisites
-- Node.js
-- npm (comes with Node.js)
-- Playwright
+---
 
-## Setup
+## ⚙️ Setup
+
 1. Clone the repository:
 ```bash
-git clone https://github.com/Saifa-Makkaew/Saifa_Assignment_Agnos_Software-Tester.git   
+git clone https://github.com/Saifa-Makkaew/Saifa_Assignment_Agnos_Software-Tester.git
 cd Saifa_Assignment_Agnos_Software-Tester
 
 2.Install dependencies:npm install
@@ -25,6 +26,10 @@ Running Tests
 Run all tests in headed mode (browser visible): npx playwright test
 
 Run tests in headless mode: npx playwright test --headed=false
+
+Test Structure
+All test scripts are located in the tests/ folder.
+example.spec.ts – Contains registration test scenarios
 
 Test Artifacts  
 Screenshots: test-results/test-name/    
@@ -42,6 +47,7 @@ TC_Register_0007: Password mismatch → should fail
 TC_Register_0008: Invalid password → should fail    
 TC_Register_0009: Valid registration → should pass
 
-Notes   
-Screenshots and videos are automatically captured for each test.    
-HTML notes are injected to indicate the test step and result.
+Notes
+Screenshots and videos are captured automatically for each test.
+HTML reports are generated after test execution.
+Test steps and results are clearly structured for debugging and analysis.
