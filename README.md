@@ -1,7 +1,7 @@
 Saifa_Assignment_Agnos_Software-Tester
 Automated UI tests for the Agnos Health registration page using Playwright.
 
-🛠 Prerequisites
+ Prerequisites
 Node.js >= 18.x
 npm (comes with Node.js)
 Playwright
