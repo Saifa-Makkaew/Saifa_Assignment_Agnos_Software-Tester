@@ -35,6 +35,6 @@ TC_Register_0007: Password mismatch → should fail
 TC_Register_0008: Invalid password → should fail  
 TC_Register_0009: Valid registration → should pass  
 
-Notes
+Notes  
 Screenshots and videos are automatically captured for each test.  
 HTML notes are injected to indicate the test step and result.  
