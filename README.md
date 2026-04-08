@@ -19,10 +19,10 @@ Run all tests in headed mode (browser visible): npx playwright test
 
 Run tests in headless mode: npx playwright test --headed=false
 
-Test Artifacts
-Screenshots: test-results/<test-name>/
-Videos: test-results/<test-name>/video.webm
-Trace: test-results/<test-name>/trace.zip
+Test Artifacts  
+Screenshots: test-results/<test-name>/  
+Videos: test-results/<test-name>/video.webm  
+Trace: test-results/<test-name>/trace.zip  
 
 Test Cases
 TC_Register_0001: Load registration page  
