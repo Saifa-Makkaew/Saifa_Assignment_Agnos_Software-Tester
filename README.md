@@ -14,7 +14,7 @@ cd Saifa_Assignment_Agnos_Software-Tester
 
 3.Install Playwright browsers:npx playwright install
 
-Running Tests
+Running Tests  
 Run all tests in headed mode (browser visible): npx playwright test
 
 Run tests in headless mode: npx playwright test --headed=false
@@ -25,16 +25,16 @@ Videos: test-results/<test-name>/video.webm
 Trace: test-results/<test-name>/trace.zip
 
 Test Cases
-TC_Register_0001: Load registration page
-TC_Register_0002: Empty form → button disabled
-TC_Register_0003: Only email filled → should fail
-TC_Register_0004: Email+Password filled → should fail
-TC_Register_0005: All fields invalid → should fail
-TC_Register_0006: Invalid email → should fail
-TC_Register_0007: Password mismatch → should fail
-TC_Register_0008: Invalid password → should fail
-TC_Register_0009: Valid registration → should pass
+TC_Register_0001: Load registration page  
+TC_Register_0002: Empty form → button disabled  
+TC_Register_0003: Only email filled → should fail  
+TC_Register_0004: Email+Password filled → should fail  
+TC_Register_0005: All fields invalid → should fail  
+TC_Register_0006: Invalid email → should fail  
+TC_Register_0007: Password mismatch → should fail  
+TC_Register_0008: Invalid password → should fail  
+TC_Register_0009: Valid registration → should pass  
 
 Notes
-Screenshots and videos are automatically captured for each test.
-HTML notes are injected to indicate the test step and result.
+Screenshots and videos are automatically captured for each test.  
+HTML notes are injected to indicate the test step and result.  
