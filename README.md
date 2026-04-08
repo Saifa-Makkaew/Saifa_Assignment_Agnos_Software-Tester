@@ -3,6 +3,9 @@
 ## Description
 Automated UI tests for the Agnos Health registration page using Playwright.
 
+## 📊 Test Case Document
+👉 https://docs.google.com/spreadsheets/d/1SY28-SgIbtM-40UFHpj4AlnloG1FvNq28qtNhQ8aF60/edit?usp=sharing
+
 ## Prerequisites
 - Node.js
 - npm (comes with Node.js)
