@@ -24,7 +24,7 @@ Screenshots: test-results/<test-name>/
 Videos: test-results/<test-name>/video.webm  
 Trace: test-results/<test-name>/trace.zip  
 
-Test Cases
+Test Cases  
 TC_Register_0001: Load registration page  
 TC_Register_0002: Empty form → button disabled  
 TC_Register_0003: Only email filled → should fail  
