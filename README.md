@@ -2,12 +2,13 @@ Saifa_Assignment_Agnos_Software-Tester
 Automated UI tests for the Agnos Health registration page using Playwright.
 
 Prerequisites  
-Node.js >= 18.x
-npm (comes with Node.js)
-Playwright
-Setup
-Clone the repository:
-git clone https://github.com/Saifa-Makkaew/Saifa_Assignment_Agnos_Software-Tester.git
+Node.js >= 18.x  
+npm (comes with Node.js)  
+Playwright  
+
+Setup  
+Clone the repository:  
+git clone https://github.com/Saifa-Makkaew/Saifa_Assignment_Agnos_Software-Tester.git  
 cd Saifa_Assignment_Agnos_Software-Tester
 
 2.Install dependencies:npm install
