@@ -31,6 +31,10 @@ Test Structure
 All test scripts are located in the tests/ folder.
 example.spec.ts – Contains registration test scenarios
 
+Playwright Configuration
+The test configuration is defined in:
+playwright.config.ts – Controls test settings such as browser, reporter, screenshot, video, and trace
+
 Test Artifacts  
 Screenshots: test-results/test-name/    
 Videos: test-results/test-name/video.webm   
